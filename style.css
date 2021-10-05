@@ -1,0 +1,48 @@
+body{
+    background-image:url(BackGround.jpg);
+    background-size: cover;
+}
+.main-nav{
+    display: flex;
+    list-style: none;
+    margin: 2px;
+    font-size: 1.5em;
+}
+
+.push {
+    margin-left: auto;
+}
+h1{
+    font-family: fantasy;
+    font-size: 3em;
+    border-bottom: 2px solid pink;
+    border-right: 2px solid pink;
+    width: 400px;
+    text-align: center;
+}
+
+
+
+p {
+    color: darkred;
+    background-color: rgba(230, 234, 235, 0.356);
+    line-height: 30px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: 'Poiret One', cursive;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img{
+    float:right;
+    margin: 10px;
+    transition: all 1s;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
